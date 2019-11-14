@@ -1,0 +1,79 @@
+.button {
+-fx-background-color:
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: blue;
+}
+.button:active {
+	-fx-position: relative;
+	-fx-top: 1px;
+}
+.label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+MediumLabel {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+}
+Text {
+    -fx-font-size: 35px;
+    -fx-font-family: "Tahoma";
+    -fx-font-weight: bold;
+    -fx-fill: white;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+.header-text {
+    -fx-font-size: 50px;
+}
+.small-blue-text {
+    -fx-fill: blue;
+    -fx-font-size: 20px;
+}
+.subheading-text {
+    -fx-font-size: 30px;
+}
+.box-text {
+    -fx-background-color: white;
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.large-label {
+    -fx-font-size: 35px;
+}
+.medium-label {
+    -fx-font-size: 30px;
+}
+.root {
+    -fx-background-image: url("bluecircles.jpg");
+}
+
+#primaryRoot {
+    -fx-background-image: url("RSPLSHome.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 500 500;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
